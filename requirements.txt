@@ -1,0 +1,7 @@
+flask
+flask-cors
+tensorflow
+pillow
+mysql-connector-python
+numpy
+gunicorn
