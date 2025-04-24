@@ -20,7 +20,7 @@ function uploadImage() {
     let formData = new FormData();
     formData.append("file", file);
 
-    fetch("http://127.0.0.1:5000/predict", {
+    fetch("https://ai-driven-models-for-diagnosing-lung.onrender.com/predict", {
         method: "POST",
         body: formData
     })
